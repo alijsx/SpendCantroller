@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+* {
+  box-sizing: border-box;
+ padding: 0px;
+ margin: 0px;
+}
+.navbar-light {
+  background-color: #333;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+.auth-wrapper  {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+.auth-inner {
+  width: 450px;
+  margin: auto;
+  background: #333;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+.auth-wrapper .form-control:focus {
+  border-color: #ffffff;
+  box-shadow: none;
+}
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+.custom-control-label {
+  font-weight: 400;
+}
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  margin: 0;
+}
+.forgot-password a {
+  color: var(--primary-color);
+}
+.fmm{
+    border-radius: 10px;
+    padding-top: -18%;
+    background: #fff;
+}
+.btn2{
+    border: none;
+    height: 35px;
+    border-radius: 8px;
+}
+.btn2:hover{
+    background: white !important;
+    border: 1px solid var(--primary-color) !important ;
+    color: var(--primary-color) 
+    !important ;
+    transition: all 0.5s;
+}
+.fbtn{
+  border: none;
+}
+.cbtn a{
+  text-decoration: none;
+  color: black;
+
+}
+.cbtn a :hover{
+  color: black;
+
+}

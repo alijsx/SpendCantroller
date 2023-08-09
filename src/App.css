@@ -1,0 +1,16 @@
+#root{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #333;
+  color: #fff;
+
+}
+main{
+  flex: 1 0 auto;
+}
+
+
+:root {
+  --primary-color: #e7eb20;
+}
